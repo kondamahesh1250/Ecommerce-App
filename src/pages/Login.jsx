@@ -27,7 +27,7 @@ function Login() {
 
   const googleLogin = () => {
     window.location.href =
-      "https://ecommerce-app-66e7.onrender.com/oauth2/authorization/google";
+      "https://ecommerce-app-backend-ycmq.onrender.com/oauth2/authorization/google";
   };
 
   return (

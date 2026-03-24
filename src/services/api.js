@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://ecommerce-app-66e7.onrender.com"
+  baseURL: "https://ecommerce-app-backend-ycmq.onrender.com"
 });
 
 API.interceptors.request.use(req => {
